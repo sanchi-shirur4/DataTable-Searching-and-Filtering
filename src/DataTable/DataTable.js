@@ -10,11 +10,9 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
   table: {
-    minWidth: 650,
+    minWidth: 700,
   },
 });
-
-
 
 export default function DataTable({data}) {
     const classes = useStyles();
@@ -24,7 +22,7 @@ export default function DataTable({data}) {
       <Table className={classes.table} aria-label="simple table">
         <TableHead >
           <TableRow>
-          {data[0] && columns.map((heading) => <TableCell>{heading}</TableCell>)}
+          {data[0] && columns.map((heading) => <TableCell style={{backgroundColor:"#3f51b5", color:"#ffffff"}}><b>{heading.toUpperCase()}</b></TableCell>)}
           </TableRow>
         </TableHead>
         <TableBody>
