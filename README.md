@@ -1,10 +1,17 @@
 # Data-Table Filtering and Searching using ReactJS
 
 
-### Description: Searches and Filters data from the table column wise.
+### Description: Searches and Filters data from the table column wise(1000 rows).
 > 1. Front-end Framework- Material UI (in Js)
 > 2. Fetch API - to retrieve data from API
 > 3. poly-fillers - es6-promise and isomorphic-fetch
+
+## Preview
+![alt text](https://github.com/sanchi-shirur4/DataTable-Searching-and-Filtering/blob/master/public/images/img1.jpeg)
+
+
+After searching for keywords we get the following 
+![alt text](https://github.com/sanchi-shirur4/DataTable-Searching-and-Filtering/blob/master/public/images/img2.jpeg)
 
 
 ## Clone to your Local Machine
